@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sms">
+
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/round"
+        android:padding="10dp"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:maxLength="10"
+        android:phoneNumber="true"
+        android:drawableLeft="@drawable/phone"
+        android:hint=" Enter Contact Number"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:hint=" Enter Your Message"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:background="@drawable/round"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/msg"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_shape"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SEND" />
+
+</LinearLayout>
