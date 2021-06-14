@@ -1,0 +1,66 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".mobnub"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your mobile number"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:singleLine="true"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/phone"
+        android:padding="10dp"
+        android:imeOptions="actionNext"
+        android:layout_marginRight="20dp"
+        android:singleLine="true"
+        android:layout_marginTop="40dp"
+        android:drawablePadding="10dp"
+        android:textSize="25dp"
+        android:phoneNumber="true"
+        android:maxLength="10"
+        android:background="@drawable/round"/>
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:imeOptions="actionDone"
+        android:gravity="center"
+        android:text="Next"
+        android:singleLine="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/round_shape"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
